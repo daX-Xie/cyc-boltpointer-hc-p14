@@ -83,3 +83,22 @@ iframe {
   border-radius: 6px;
   border: 1px solid #ddd;
 }
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  header.hero {
+    padding: 1rem;
+  }
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  main {
+    padding: 1rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+}
